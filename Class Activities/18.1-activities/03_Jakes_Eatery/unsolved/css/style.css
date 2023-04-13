@@ -1,0 +1,53 @@
+/* Navigation styles */
+.logo {
+    background-color: white;
+    height: 230px;
+    background-image: url("../images/jakes-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav{
+    display: flex;
+    background-color: black;
+    padding: 20px;
+}
+
+.left, .center, .right {
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left, .right {
+    width: 25%;
+    
+}
+
+.center {
+    width: 50%;
+}
+
+.center a{
+    width: 50%;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+.left, button{
+    width: 25%;
+    color: white;
+    padding: ;
+}
+
+.right button{
+    width: 25%;
+    
+}
+/* Column styles */
+
+/* Footer Styles */
